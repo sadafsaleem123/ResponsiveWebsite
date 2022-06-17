@@ -1,0 +1,508 @@
+
+
+/*******************************************    Navbar    *******************************************************************/
+.container-1{
+  top: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 60px;
+  background: #EB1B29 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #A40B1529;
+  border: 1px solid #EB1B29;
+  opacity: 1;
+}
+.sameline {
+  display: inline-block;
+}
+.left{
+   padding-right: 0px;
+  margin-right: 0px;
+  float: right;
+  padding-top: 20px;
+}
+
+.box{
+margin-top: 0px;
+margin-left: 20px;
+left: 79px;
+width: 230px;
+height: 35px;
+background: #F9F9F9 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 50px;
+opacity: 1;
+display: flex;
+align-items: center;
+padding: 20px;
+float: right;
+}
+
+.box > i{
+  top: 27px;
+left: 94px;
+opacity: 1;
+}
+.box > input{
+  top: 25px;
+left: 133px;
+width: 128px;
+height: 33px;
+text-align: left;
+font: normal normal 600 25px/33px Segoe UI;
+letter-spacing: 0.32px;
+color: #919191;
+opacity: 1;
+border: none;
+outline: none;
+
+}
+
+.fas{
+  color: white;
+}
+
+ .fa-home{
+  margin-top: 0px;
+  margin-left: 100px;
+
+}
+
+.fa-users{
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.fa-trophy{
+    margin-top: 0px;
+margin-left: 120px;
+}
+
+.fa-gift{
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+
+.mic{
+  margin-top: 0px;
+  margin-left: 15px;
+  width: 92px;
+  height: 26px;
+  text-align: left;
+  font: normal normal bold 19px/26px Segoe UI;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.fa-bell{
+    margin-top: 0px;
+  margin-left: 40px;
+}
+
+.fa-shopping-basket{
+  margin-left: 15px;
+  margin-top: 0px;
+}
+
+.fa-user-cog{
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  #bar{
+    display: none;
+  }
+}
+
+
+/*****************************************************************************************************************/
+/**********************************************   Reward Page   **************************************************/
+
+@media only screen and (max-width: 320px) {
+#cont{
+
+margin-top: 20px;
+margin-left: 50px;
+}
+}
+
+@media only screen and (min-width: 480px) {
+#cont{
+
+margin-top: 20px;
+margin-left: 120px;
+}
+}
+
+.square{
+  margin-bottom: 20px;
+width: 200px;
+height: 350px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 6px #00000029;
+border: 1px solid #FFFFFF;
+opacity: 1;
+}
+
+.square img{
+  width: 100%;
+}
+
+.points{
+  margin-top: 20px;
+margin-left: 35px;
+width: 177px;
+height: 30px;
+text-align: left;
+font: normal normal 600 16px Segoe UI;
+letter-spacing: 1.96px;
+color: #6A6A6A;
+opacity: 1;
+}
+
+.head1{
+  top: 423px;
+margin-left: 45px;
+width: 149px;
+height: 40px;
+text-align: left;
+font: normal normal bold 22px Segoe UI;
+letter-spacing: 2.67px;
+color: #EB1B29;
+opacity: 1;
+}
+
+.redeem{
+  margin-top: 15px;
+margin-left: 42px;
+width: 123px;
+height: 42px;
+background: #EB1B29 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 3px #00000033;
+border-radius: 50px;
+opacity: 1;
+}
+
+.new{
+  color: white;
+  margin-top: 12px;
+  margin-left:18px;
+}
+
+.text{
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 14px;
+  font: Roboto;
+  letter-spacing: 1.34px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+/************************************************************************************************************************/
+/*******************************************    Achievement Page   ******************************************************/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+#q1{
+
+margin-top: 20px;
+margin-left: 40px;
+width: 80%;
+}
+}
+
+@media only screen  and (max-width: 320px) {
+#q1{
+margin-left: 0px;
+width: 96%;
+}
+}
+
+.fa-comment-alt{
+  color: #7FFF00;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.convo{
+margin-top: 20px;
+margin-left: 15px;
+text-align: left;
+font: normal normal 600 18px Segoe UI;
+letter-spacing: 0.32px;
+color: #919191;
+opacity: 1;
+}
+
+.list{
+  text-align: left;
+  font: normal normal 600 16px Segoe UI;
+  letter-spacing: 0.3px;
+  color: #919191;
+  opacity: 1;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+#q3{
+
+width: 100%;
+}
+}
+
+@media only screen and (max-width: 320px)  {
+#skip{
+
+display: none;
+}
+}
+
+.rectangle{
+  margin-top: 20px;
+margin-left: 25px;
+width: 630px;
+height: 90px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FFFFFF;
+opacity: 1;
+}
+
+.inside-1{
+  margin-top: 33px;
+margin-left: 40px;
+text-align: left;
+font: normal normal 600 18px Segoe UI;
+letter-spacing: 0.32px;
+color: #6A6A6A;
+opacity: 1;
+}
+
+.inside-2{
+  margin-top: 33px;
+margin-left: 50px;
+text-align: left;
+font: normal normal bold 18px Segoe UI;
+letter-spacing: 0px;
+color: #6A6A6A;
+opacity: 1;
+}
+
+.inside-3{
+  margin-top: 33px;
+margin-left: 45px;
+text-align: left;
+font: normal normal bold 18px Segoe UI;
+letter-spacing: 0px;
+color: #AF0C0C;
+opacity: 1;
+}
+
+.cr{
+  color:gray;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.cr2{
+  color:#b87333;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.last{
+  margin-top: 70px;
+margin-left: 22px;
+width: 638px;
+height: 170px;
+background: #AF0C0C 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #AF0C0C;
+opacity: 1;
+}
+
+.last-text{
+text-align: left;
+font: normal normal medium 20px Roboto;
+
+letter-spacing: 0.41px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+#redy{
+
+width: 90%;
+}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+#q2{
+
+margin-top: 20px;
+margin-left: 70px;
+}
+}
+
+.listt{
+  text-align: left;
+  font: normal normal 600 14px Segoe UI;
+  letter-spacing: 0.3px;
+  color: #919191;
+  opacity: 1;
+}
+
+
+
+
+/************************************************************************************************************************************/
+/***********************************************    Group Page   *******************************************************************/
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+#res{
+
+  width: 80%;
+  margin-left: 30px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+#res{
+
+  margin-left: 10px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+#abc{
+
+  margin-top: 35px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+#line{
+
+
+  margin-left: 10px;
+}
+}
+
+
+.gr{
+  margin-left: 25px;
+  margin-top: 20px;
+
+text-align: left;
+font: normal normal 600 18px Segoe UI;
+letter-spacing: 0.32px;
+color: #919191;
+opacity: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+#responsive{
+
+  width: 98%;
+
+}
+}
+
+
+.box-one{
+  margin-top: 30px;
+left: 483px;
+width: 695px;
+height: 470px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 6px 6px #00000029;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+opacity: 1;
+}
+
+.op{
+  margin-top: 20px;
+  text-align: left;
+font: normal normal normal 20px Roboto;
+letter-spacing: 0.39px;
+color: #919191;
+opacity: 1;
+}
+
+.great{
+margin-top: 20px;
+margin-left: 10px;
+text-align: left;
+font: normal normal normal 20px Roboto;
+letter-spacing: 0.39px;
+color: #919191;
+opacity: 1;
+}
+
+.date{
+  top: 811px;
+left: 579px;
+width: 352px;
+height: 33px;
+text-align: left;
+font: normal normal normal 20px Roboto;
+letter-spacing: 0.32px;
+color: #919191;
+opacity: 1;
+}
+
+.ab{
+margin-top: 0px;
+margin-left: 30px;
+text-align: left;
+font: normal normal normal 20px Roboto;
+letter-spacing: 0.45px;
+color: #919191;
+opacity: 1;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+#icons{
+
+  width: 100%;
+  margin-left: 0px;
+}
+}
+
+.tt{
+  margin-top: 25px;
+margin-left: 20px;
+width: 125px;
+height: 37px;
+text-align: left;
+font: normal normal medium 28px/37px Roboto;
+letter-spacing: 0.36px;
+color: #6A6A6A;
+opacity: 1;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+.square{
+  margin-right: 90px;
+}
+}
+
+
+@media only screen and (max-width: 1199px) {
+.quer{
+  margin-right: 10px;
+  background-color: #EB1B29;
+
+}
+}
